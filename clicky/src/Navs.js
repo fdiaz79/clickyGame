@@ -4,7 +4,7 @@ const Navs = ({navData}) => {
     
     return(
         <nav className="navbar navbar-dark bg-dark">
-            <a className="navbar-brand" href="">
+            <a className="navbar-brand" href="#">
                 <h3>Clicky Game</h3>
             </a>
             <span className="navbar-text">
