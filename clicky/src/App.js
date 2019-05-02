@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import Containers from './Containers';
 import Navs from './Navs';
 import Jumbotrons from './Jumbotrons';
+import Bach from './images/bach.jpg';
+import Beeth from './images/beethoven.jpg';
+import Chop from './images/chopin.jpg';
+import Debu from './images/debussy.jpg';
+import Hand from './images/handel.jpg';
+import Mend from './images/mendel.jpg';
+import Moza from './images/mozart.jpg';
+import Pales from './images/palestrina.jpg';
+import Stra from './images/strav.jpg';
+import Tchai from './images/tchai.jpg';
+import Verdi from './images/verdi.jpg';
+import Vival from './images/vivaldi.jpg';
+
 
 import './App.css';
 
@@ -15,18 +28,18 @@ class App extends Component {
         message: "Click an image to begin"
       },
     images:[
-      {id: 1, source: "./images/bach.jpg", text:"Bach", clicked: false},
-      {id: 2, source: "./images/beethoven.jpg", text:"Beethoven", clicked: false},
-      {id: 3, source: "./images/chopin.jpg", text:"Chopin", clicked: false},
-      {id: 4, source: "./images/debussy.jpg", text:"Debussy", clicked: false},
-      {id: 5, source: "./images/handel.jpg", text:"Handel", clicked: false},
-      {id: 6, source: "./images/mendel.jpg", text:"Mendelsohn", clicked: false},
-      {id: 7, source: "./images/mozart.jpg", text:"Mozart", clicked: false},
-      {id: 8, source: "./images/palestrina.jpg", text:"Palestrina", clicked: false},
-      {id: 9, source: "./images/strav.jpg", text:"Stravinsky", clicked: false},
-      {id: 10, source: "./images/tchai.jpg", text:"Tchaikovsky", clicked: false},
-      {id: 11, source: "./images/verdi.jpg", text:"Verdi", clicked: false},
-      {id: 12, source: "./images/vivaldi.jpg", text:"Vivaldi", clicked: false}
+      {id: 1, source: Bach, text:"Bach", clicked: false},
+      {id: 2, source: Beeth, text:"Beethoven", clicked: false},
+      {id: 3, source: Chop, text:"Chopin", clicked: false},
+      {id: 4, source: Debu, text:"Debussy", clicked: false},
+      {id: 5, source: Hand, text:"Handel", clicked: false},
+      {id: 6, source: Mend, text:"Mendelsohn", clicked: false},
+      {id: 7, source: Moza, text:"Mozart", clicked: false},
+      {id: 8, source: Pales, text:"Palestrina", clicked: false},
+      {id: 9, source: Stra, text:"Stravinsky", clicked: false},
+      {id: 10, source: Tchai, text:"Tchaikovsky", clicked: false},
+      {id: 11, source: Verdi, text:"Verdi", clicked: false},
+      {id: 12, source: Vival, text:"Vivaldi", clicked: false}
     ]
       
   }
