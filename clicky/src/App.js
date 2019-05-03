@@ -25,7 +25,11 @@ class App extends Component {
       {
         current:0,
         top: 0,
-        message: "Click an image to begin"
+        message: "Click an image to begin",
+        classColor: " "
+      },
+      containerClass:{
+        shaky: "container"
       },
     images:[
       {id: 1, source: Bach, text:"Bach", clicked: false},
@@ -47,19 +51,24 @@ class App extends Component {
   doOnClick = (id) => {
     let navDataCopy = this.state.navData;
     let imagesCopy = this.state.images;
+    let containerClassCopy = this.state.containerClass;
 
     for (let i=0; i<imagesCopy.length; i++){
       if (imagesCopy[i].id === id) {
         if (!imagesCopy[i].clicked){
           imagesCopy[i].clicked = true;
           navDataCopy.message = "You guessed correctly!!!";
+          navDataCopy.classColor = "success";
+          containerClassCopy.shaky = "container"
           navDataCopy.current++;
           if (navDataCopy.current > navDataCopy.top) {
             navDataCopy.top = navDataCopy.current;
           }
         } else{
           navDataCopy.message = "You guessed incorrectly!!!";
+          navDataCopy.classColor = "fail";
           navDataCopy.current = 0;
+          containerClassCopy.shaky = "container shaky";
           for (let j=0; j<imagesCopy.length; j++){
             imagesCopy[j].clicked=false;
           }
@@ -68,7 +77,8 @@ class App extends Component {
     }
     this.setState({
       navData: navDataCopy,
-      images: imagesCopy
+      images: imagesCopy,
+      containerClass: containerClassCopy
     })   
   }
 
@@ -78,7 +88,7 @@ class App extends Component {
       <div className="App">
         <Navs navData={this.state.navData} />
         <Jumbotrons />
-        <Containers images={this.state.images} doOnClick={this.doOnClick} />
+        <Containers images={this.state.images} doOnClick={this.doOnClick} containerClass={this.state.containerClass} />
         
         
       </div>

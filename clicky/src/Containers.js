@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Containers = ({images, doOnClick}) => {
+const Containers = ({images, doOnClick, containerClass}) => {
     console.log (images);
     const imagesList = images.length ? (
         images.map(image => {
             return(
-                <div className="col-3" key={image.id} id="img-click">
+                <div className="col-3 img-group" key={image.id} id="img-click">
                     <img src={image.source} alt={image.text} className="img-thumbnail" onClick={()=>doOnClick(image.id) } />
+                    <div className = "caption text-center">{image.text} </div>
                 </div>
             )
         })
@@ -26,15 +27,15 @@ const Containers = ({images, doOnClick}) => {
         randomArr.push(ranNum);
     }
     return(
-        <div className="container">
+        <div className={containerClass.shaky} >
             <div className="row">
-                <div className="col-12 col-sm-2"></div>
-                <div className="col-12 col-sm-8">
+                <div className="col-12 col-sm-1"></div>
+                <div className="col-12 col-sm-10">
                     <div className="row">
                         { randomList }
                     </div>
                 </div>
-                <div className="col-12 col-sm-2"></div>
+                <div className="col-12 col-sm-1"></div>
             </div>
         </div>
     )
