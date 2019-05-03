@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/clickyGame/static/css/main.158cc265.chunk.css",
-    "main.js": "/clickyGame/static/js/main.3e185765.chunk.js",
-    "main.js.map": "/clickyGame/static/js/main.3e185765.chunk.js.map",
+    "main.js": "/clickyGame/static/js/main.abced56c.chunk.js",
+    "main.js.map": "/clickyGame/static/js/main.abced56c.chunk.js.map",
     "runtime~main.js": "/clickyGame/static/js/runtime~main.d5f62368.js",
     "runtime~main.js.map": "/clickyGame/static/js/runtime~main.d5f62368.js.map",
-    "static/js/2.65aa1cca.chunk.js": "/clickyGame/static/js/2.65aa1cca.chunk.js",
-    "static/js/2.65aa1cca.chunk.js.map": "/clickyGame/static/js/2.65aa1cca.chunk.js.map",
+    "static/js/2.3a5cce55.chunk.js": "/clickyGame/static/js/2.3a5cce55.chunk.js",
+    "static/js/2.3a5cce55.chunk.js.map": "/clickyGame/static/js/2.3a5cce55.chunk.js.map",
     "index.html": "/clickyGame/index.html",
-    "precache-manifest.52d6ce413feb434c6cf70b8dcde59005.js": "/clickyGame/precache-manifest.52d6ce413feb434c6cf70b8dcde59005.js",
+    "precache-manifest.c33d5483c765b4e63534ddb38151ef1a.js": "/clickyGame/precache-manifest.c33d5483c765b4e63534ddb38151ef1a.js",
     "service-worker.js": "/clickyGame/service-worker.js",
-    "static/css/main.158cc265.chunk.css.map": "/clickyGame/static/css/main.158cc265.chunk.css.map"
+    "static/css/main.158cc265.chunk.css.map": "/clickyGame/static/css/main.158cc265.chunk.css.map",
+    "static/media/bach.jpg": "/clickyGame/static/media/bach.a0412909.jpg",
+    "static/media/beethoven.jpg": "/clickyGame/static/media/beethoven.7f2dd07a.jpg",
+    "static/media/chopin.jpg": "/clickyGame/static/media/chopin.7803ce06.jpg",
+    "static/media/debussy.jpg": "/clickyGame/static/media/debussy.e08ae73b.jpg",
+    "static/media/handel.jpg": "/clickyGame/static/media/handel.b6df7900.jpg",
+    "static/media/mendel.jpg": "/clickyGame/static/media/mendel.3b7d572a.jpg",
+    "static/media/mozart.jpg": "/clickyGame/static/media/mozart.e099936b.jpg",
+    "static/media/palestrina.jpg": "/clickyGame/static/media/palestrina.b73e8084.jpg",
+    "static/media/strav.jpg": "/clickyGame/static/media/strav.01d5bc49.jpg",
+    "static/media/tchai.jpg": "/clickyGame/static/media/tchai.b5e3348f.jpg",
+    "static/media/verdi.jpg": "/clickyGame/static/media/verdi.ca9e5dfc.jpg",
+    "static/media/vivaldi.jpg": "/clickyGame/static/media/vivaldi.c8eb24d7.jpg"
   }
 }
